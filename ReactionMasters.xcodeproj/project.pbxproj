@@ -18,6 +18,8 @@
 		E580190B17A04A86002EFA77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E580190A17A04A86002EFA77 /* Default-568h@2x.png */; };
 		E580190E17A04A86002EFA77 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E580190C17A04A86002EFA77 /* MainStoryboard.storyboard */; };
 		E580191117A04A86002EFA77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E580191017A04A86002EFA77 /* ViewController.m */; };
+		E580191917A06B89002EFA77 /* timerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E580191817A06B89002EFA77 /* timerViewController.m */; };
+		E580191C17A06CC9002EFA77 /* Timer2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E580191B17A06CC9002EFA77 /* Timer2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		E580190D17A04A86002EFA77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E580190F17A04A86002EFA77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E580191017A04A86002EFA77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E580191717A06B89002EFA77 /* timerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timerViewController.h; sourceTree = "<group>"; };
+		E580191817A06B89002EFA77 /* timerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timerViewController.m; sourceTree = "<group>"; };
+		E580191A17A06CC9002EFA77 /* Timer2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer2ViewController.h; sourceTree = "<group>"; };
+		E580191B17A06CC9002EFA77 /* Timer2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 				E580190C17A04A86002EFA77 /* MainStoryboard.storyboard */,
 				E580190F17A04A86002EFA77 /* ViewController.h */,
 				E580191017A04A86002EFA77 /* ViewController.m */,
+				E580191717A06B89002EFA77 /* timerViewController.h */,
+				E580191817A06B89002EFA77 /* timerViewController.m */,
+				E580191A17A06CC9002EFA77 /* Timer2ViewController.h */,
+				E580191B17A06CC9002EFA77 /* Timer2ViewController.m */,
 				E58018FB17A04A86002EFA77 /* Supporting Files */,
 			);
 			path = ReactionMasters;
@@ -176,6 +186,8 @@
 				E580190117A04A86002EFA77 /* main.m in Sources */,
 				E580190517A04A86002EFA77 /* AppDelegate.m in Sources */,
 				E580191117A04A86002EFA77 /* ViewController.m in Sources */,
+				E580191917A06B89002EFA77 /* timerViewController.m in Sources */,
+				E580191C17A06CC9002EFA77 /* Timer2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				E580191617A04A86002EFA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
