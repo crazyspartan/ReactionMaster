@@ -18,6 +18,8 @@
 		E56BA70E17A047CB00EAB386 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E56BA70D17A047CB00EAB386 /* Default-568h@2x.png */; };
 		E56BA71117A047CB00EAB386 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56BA70F17A047CB00EAB386 /* MainStoryboard.storyboard */; };
 		E56BA71417A047CB00EAB386 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56BA71317A047CB00EAB386 /* ViewController.m */; };
+		E56BA71C17A06B9800EAB386 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56BA71B17A06B9800EAB386 /* GameViewController.m */; };
+		E56BA71F17A06BD300EAB386 /* GameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E56BA71E17A06BD300EAB386 /* GameLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		E56BA71017A047CB00EAB386 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E56BA71217A047CB00EAB386 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E56BA71317A047CB00EAB386 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E56BA71A17A06B9800EAB386 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		E56BA71B17A06B9800EAB386 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		E56BA71D17A06BD300EAB386 /* GameLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayout.h; sourceTree = "<group>"; };
+		E56BA71E17A06BD300EAB386 /* GameLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				E56BA70617A047CB00EAB386 /* AppDelegate.h */,
 				E56BA70717A047CB00EAB386 /* AppDelegate.m */,
 				E56BA70F17A047CB00EAB386 /* MainStoryboard.storyboard */,
+				E56BA71D17A06BD300EAB386 /* GameLayout.h */,
+				E56BA71E17A06BD300EAB386 /* GameLayout.m */,
+				E56BA71A17A06B9800EAB386 /* GameViewController.h */,
+				E56BA71B17A06B9800EAB386 /* GameViewController.m */,
 				E56BA71217A047CB00EAB386 /* ViewController.h */,
 				E56BA71317A047CB00EAB386 /* ViewController.m */,
 				E56BA6FE17A047CB00EAB386 /* Supporting Files */,
@@ -176,6 +186,8 @@
 				E56BA70417A047CB00EAB386 /* main.m in Sources */,
 				E56BA70817A047CB00EAB386 /* AppDelegate.m in Sources */,
 				E56BA71417A047CB00EAB386 /* ViewController.m in Sources */,
+				E56BA71C17A06B9800EAB386 /* GameViewController.m in Sources */,
+				E56BA71F17A06BD300EAB386 /* GameLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				E56BA71917A047CB00EAB386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
