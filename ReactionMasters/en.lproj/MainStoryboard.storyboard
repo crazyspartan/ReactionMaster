@@ -35,10 +35,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="3Hf-Ij-PVO" secondAttribute="bottom" constant="49" id="27j-bS-4Fc"/>
-                            <constraint firstAttribute="trailing" secondItem="VLc-A9-S1d" secondAttribute="trailing" constant="65" id="EMn-JI-O4s"/>
-                            <constraint firstItem="VLc-A9-S1d" firstAttribute="trailing" secondItem="3Hf-Ij-PVO" secondAttribute="trailing" type="default" id="YZ1-Bm-Mcy"/>
-                            <constraint firstItem="VLc-A9-S1d" firstAttribute="top" secondItem="3" secondAttribute="top" constant="231" id="knn-pQ-Hws"/>
+                            <constraint firstItem="3Hf-Ij-PVO" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="GCB-5i-01L"/>
+                            <constraint firstAttribute="bottom" secondItem="3Hf-Ij-PVO" secondAttribute="bottom" constant="54" id="Na3-oA-Rk3"/>
+                            <constraint firstItem="VLc-A9-S1d" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="bcf-8G-wK4"/>
+                            <constraint firstItem="3Hf-Ij-PVO" firstAttribute="centerX" secondItem="VLc-A9-S1d" secondAttribute="centerX" type="default" id="xoZ-Vb-fFP"/>
                         </constraints>
                     </view>
                 </viewController>
